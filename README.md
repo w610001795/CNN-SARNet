@@ -13,6 +13,15 @@
   python COSI.py --mode=validation
   ……
   ```
+## project structure
+   `COSI.py`       ：includes the main functions and FLAGS    
+   `cnnnet.py`     ：includes the structure of the CNN-SARNet    
+   `DI.py`         ：data read, preprocessing and enhancement    
+   `log.py`       ：bulid the logger files of the project        
+   `train.py`     ：algorithm of training network    
+   `validation.py`：validation method    
+   `inference.py` ：inference for single test images
+
 ## Inquiring
    If you had some questions, you would email to me : [wyx_wx@foxmail.com]                
    If you are also committed to applying `Deep Learning` to remote sensing (especially SAR ) research, you could also contact me for academic exchange.
